@@ -1,0 +1,28 @@
+a{
+	text-decoration: none;
+	font-size: 14px;
+}
+.content{
+	width: 100%;
+	padding: 100px;
+	background-color: #987878;
+}
+.container{
+	width: 100%;
+}
+.overlay{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.date-overlay{
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	opacity: 0;
+	transition: opacity .2s ease-out;
+	z-index: 1;
+}
